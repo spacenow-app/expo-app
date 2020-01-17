@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View, Platform, StatusBar } from 'react-native';
 import { WebView } from 'react-native-webview';
 
-const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 20 : StatusBar.currentHeight;
+const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 45 : StatusBar.currentHeight;
 
 const MobileStatusBar = ({ backgroundColor, ...props }) => (
   <View style={[styles.statusBar, { backgroundColor }]}>
